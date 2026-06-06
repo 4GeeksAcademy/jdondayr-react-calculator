@@ -1,0 +1,16 @@
+Pseudocode:
+
+Crear array de botones, cada uno con su nombre, que servirá como key del elemento y como su contenido, y con su función.
+    - map del array para la creación de botones.
+
+Crear funciones de operación:
+
+    - Cuando se pulse el botón de operación:
+        · Debería guardar el valor actual de la pantalla en una variable.
+        · Debería establecer de nuevo el valor de la pantalla en 0, para poder introducir otro número.
+    
+    - Al pulsar igual, debería realizar la operación del primer valor +, -, /, o * el valor actual de la pantalla.
+        · Se me ocurre o con valor anterior + valor actual (haciendo referencia a valor anterior).
+        · O bien, guardando el valor anterior en una variable y operando con el actual.
+        · useState de operaciónActiva reconoce la operación.
+        . La función del igual ejecuta una operación en función de la operación que esté activa.
